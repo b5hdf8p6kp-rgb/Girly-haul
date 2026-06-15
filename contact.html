@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Girly Haul</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo"><a href="index.html">Girly Haul</a></h1>
+      <nav>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h2>Get in touch</h2>
+    <p>Have a question about a haul, restock, or collaboration? Send us a message.</p>
+
+    <!-- Replace the action URL with your Formspree or other form endpoint -->
+    <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+      <label>
+        Your name
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        Email
+        <input type="email" name="_replyto" required>
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="5" required></textarea>
+      </label>
+      <button class="btn" type="submit">Send</button>
+    </form>
+    <p class="muted">Or email us directly at hello@girlyhaul.example</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© Girly Haul</div>
+    </div>
+  </footer>
+</body>
+</html>

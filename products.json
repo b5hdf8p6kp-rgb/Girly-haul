@@ -1,0 +1,44 @@
+[
+  {
+    "id": "p1",
+    "name": "Pastel Scrunchie Set",
+    "price": 12,
+    "image": "https://images.unsplash.com/photo-1543165365-61b0b1a6d0b8?q=80&w=1200&auto=format&fit=crop",
+    "description": "Set of 3 soft satin scrunchies in pastel hues."
+  },
+  {
+    "id": "p2",
+    "name": "Glitter Phone Charm",
+    "price": 8,
+    "image": "https://images.unsplash.com/photo-1559589689-5777f6b7b2d8?q=80&w=1200&auto=format&fit=crop",
+    "description": "Cute phone charm with star glitter and mini tassel."
+  },
+  {
+    "id": "p3",
+    "name": "Floral Mini Bag",
+    "price": 28,
+    "image": "https://images.unsplash.com/photo-1520975919970-63d8b7c2e21d?q=80&w=1200&auto=format&fit=crop",
+    "description": "Compact crossbody with delicate floral print."
+  },
+  {
+    "id": "p4",
+    "name": "Satin Hair Clip Duo",
+    "price": 10,
+    "image": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1200&auto=format&fit=crop",
+    "description": "Two oversized satin hair clips for effortless styling."
+  },
+  {
+    "id": "p5",
+    "name": "Rose Gold Hoop Earrings",
+    "price": 15,
+    "image": "https://images.unsplash.com/photo-1600180758899-a9f7a5f2e2de?q=80&w=1200&auto=format&fit=crop",
+    "description": "Lightweight rose gold hoops that go with everything."
+  },
+  {
+    "id": "p6",
+    "name": "Cloud Bath Bomb",
+    "price": 6,
+    "image": "https://images.unsplash.com/photo-1501183638710-841dd1904471?q=80&w=1200&auto=format&fit=crop",
+    "description": "Moisturizing bath bomb with a soft floral scent."
+  }
+]

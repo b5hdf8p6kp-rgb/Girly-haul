@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shop — Girly Haul</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo"><a href="index.html">Girly Haul</a></h1>
+      <nav>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <button id="cart-button-2" class="cart-btn">Cart (<span id="cart-count-2">0</span>)</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Shop All</h2>
+    <div id="products-grid" class="grid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year-2"></span> Girly Haul</div>
+    </div>
+  </footer>
+
+  <div id="cart-modal-2" class="modal hidden">
+    <div class="modal-content">
+      <button id="close-cart-2" class="close">×</button>
+      <h3>Your Cart</h3>
+      <div id="cart-items-2"></div>
+      <div id="cart-total-2" class="cart-total"></div>
+      <div class="cart-actions">
+        <button id="clear-cart-2" class="btn ghost">Clear</button>
+        <button id="checkout-btn-2" class="btn">Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

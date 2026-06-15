@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Girly Haul — Trendy Finds</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo"><a href="index.html">Girly Haul</a></h1>
+      <nav>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <button id="cart-button" class="cart-btn">Cart (<span id="cart-count">0</span>)</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-text">
+          <h2>Fresh hauls, curated just for you</h2>
+          <p>Pastel picks, beauty finds, and must-have accessories — handpicked for your next haul.</p>
+          <a class="btn" href="shop.html">Shop New Arrivals</a>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1520975919970-63d8b7c2e21d?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1f2b9964197b708b5a0f8b6f4f4d3a6c" alt="Girly Haul">
+        </div>
+      </div>
+    </section>
+
+    <section class="container section">
+      <h3>Featured Picks</h3>
+      <div id="featured-grid" class="grid"></div>
+    </section>
+
+    <section class="container section newsletter">
+      <h4>Join our mailing list</h4>
+      <form id="newsletter-form">
+        <input type="email" id="newsletter-email" placeholder="Your email" required>
+        <button class="btn" type="submit">Subscribe</button>
+      </form>
+      <small>We send style inspo and exclusive hauls once a month.</small>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Girly Haul</div>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">Instagram</a> · <a href="#" aria-label="TikTok">TikTok</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cart modal -->
+  <div id="cart-modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="close-cart" class="close">×</button>
+      <h3>Your Cart</h3>
+      <div id="cart-items"></div>
+      <div id="cart-total" class="cart-total"></div>
+      <div class="cart-actions">
+        <button id="clear-cart" class="btn ghost">Clear</button>
+        <button id="checkout-btn" class="btn">Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
